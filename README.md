@@ -101,6 +101,15 @@ Then authorize the connection when Cursor prompts you.
 | `unpin_all_chat_messages` | Unpin all pinned messages in a chat |
 | `unpin_chat_message` | Unpin a message in a chat |
 
+## Control What Your AI Can Do
+
+You decide what AI agents can do with each connected account:
+
+- **Turn individual actions on or off** for every connected account, so agents only see the actions you allow.
+- **Connect as Read-only or Read & Write.** A read-only connection can only enable read actions.
+- **Destructive actions stay off by default.** Actions such as deletes are disabled until an admin enables them.
+- **Team access per account.** Restricted team members only use the accounts they are granted, with the read actions enabled on them.
+
 ## Usage Examples
 
 ```
